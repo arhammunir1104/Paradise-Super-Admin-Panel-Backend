@@ -18,7 +18,7 @@ let ReservationDetails = require("./src/models/ReservationDetails");
 
 //Cors
 let corsOptions = {
-    origin: "http://localhost:5175",
+    origin: "https://paradise-super-admin.web.app",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Origin', ],
     creddentials: true,
